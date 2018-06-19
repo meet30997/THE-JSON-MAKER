@@ -1,0 +1,345 @@
+/*
+	Synchronous by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 5em 0em;
+	}
+	
+		.homepage #header
+		{
+			padding: 10em 0em;
+		}
+
+		#header .container
+		{
+		}
+
+.container{
+
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 50px;
+  background-color: #448aff;
+  text-align: center;
+}
+.top-container h1 {
+  letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 4em;
+			font-weight: 900;
+			color: #ffffff;
+  text-align: center;
+}
+
+.top-container p {
+  letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1em;
+			font-weight: 900;
+			color: #ffffff;
+  text-align: center;
+}
+.header {
+  padding: 10px 16px;
+  background: #448aff;
+  color: #f1f1f1;
+}
+
+.header h2 {
+letter-spacing: 1px;
+text-decoration: none;
+font-size: 2.5em;
+font-weight: 900;
+color: #ffffff;
+  
+}
+.header h3 {
+letter-spacing: 1px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 2.5em;
+font-weight: 900;
+color: #ffffff;
+  
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+}
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		background-color: #448aff;
+		margin-bottom: 3em;
+	}
+	
+		#logo h1
+		{
+			color: #FFF;
+		}
+	
+		#logo h1 a
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 4em;
+			font-weight: 900;
+			color: #ffffff;
+		}
+		#logo h4 a 
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1em;
+			font-weight: 900;
+			color: #ffffff;
+		}
+
+		#logo span
+		{
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			color: #8e8588;
+		}			
+			
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 1em;
+				outline: 0;
+				color: #323338;
+			}
+
+
+			#nav > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				background: #323338;
+				border-radius: 4px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner {
+		overflow: hidden;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	}
+
+	#banner .banner-border {
+		padding: 20px;
+		background: #FFFFFF;
+	}
+
+	#banner a img {
+		display: block;
+		width: 100%;
+	}
+
+/*********************************************************************************/
+/* Page Wrapper                                                                  */
+/*********************************************************************************/
+
+	.homepage #page {
+		overflow: hidden;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content {
+		height: 100%;
+		width: 800px;
+		margin: auto;
+	}
+
+	.twocolumn2 #content {
+	}
+
+	.onecolumn #content {
+	}
+
+	#content h2 {
+	}
+	
+	@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+#content {
+		height: 100%;
+		width: 100%;
+		margin: auto;
+	}
+	
+	#mainco{
+	
+	height: 100%;
+	width: 450px;
+	margin: auto;
+	
+	}
+	
+	
+
+}
+
+/*********************************************************************************/
+/* Sidebar    r                                                                  */
+/*********************************************************************************/
+
+	#sidebar1 {
+		float:left;
+		width: 220px;
+		height: 800px;
+		margin-left: 80px;
+		padding-left: 0px;
+	}
+
+	
+
+	
+
+	#sidebar2 {
+		width: 200px;
+		height:800px;
+		float: right;
+		margin-right: 10px;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#sidebar2 h2 {
+	}
+	
+	.form1 h2 {
+	margin-bottom: 20px;
+	color: ##448aff;
+}
+
+
+
+
+/* ===========================
+   ====== Contact Form ======= 
+   =========================== */
+
+.form1 input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+
+.form1 p {
+		margin-bottom: 0.5em;
+	}
+
+.form1 textarea {
+	width: 200px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+.form1 label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+/* ===========================
+   ====== Submit Button ====== 
+   =========================== */
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #448aff; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}

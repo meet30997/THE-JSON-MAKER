@@ -1,0 +1,2 @@
+[04-Jun-2018 05:09:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/backendme/public_html/htmltojson/mail.php:12) in /home/backendme/public_html/htmltojson/mail.php on line 13
+[04-Jun-2018 05:10:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/backendme/public_html/htmltojson/mail.php:12) in /home/backendme/public_html/htmltojson/mail.php on line 13
